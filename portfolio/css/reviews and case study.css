@@ -1,0 +1,64 @@
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Fullscreen Zoom View */
+#zoom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none; /* Hide it initially */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+#zoom-overlay.hidden {
+    display: none;
+}
+
+/* Zoomed Image */
+#zoomed-image {
+    max-width: 95%;
+    max-height: 95%;
+    border-radius: 10px;
+    box-shadow: 0px 15px 40px rgba(255, 255, 255, 0.25);
+    transition: transform 0.3s ease-in-out; /* Smooth zoom animation */
+    transform: scale(1.05);
+    image-rendering: crisp-edges;
+}
+
+/* Close Button */
+#close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+#close-btn:hover {
+    color: #ff5555;
+}
