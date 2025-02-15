@@ -1,0 +1,172 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #1877F2, #0056D2);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    line-height: 1.6;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+    color: #F0F0F0;
+}
+
+/* Content Wrapper */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Dark Mode Fix */
+body.dark-mode .container {
+    background: #1A1A1A;
+    color: #F0F0F0;
+}
+
+/* Header */
+header {
+    background: #1877F2;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode header {
+    background: #1E1E1E;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+body.dark-mode section {
+    background: #1A1A1A;
+    color: #F0F0F0;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0078ff;
+    border-bottom: 2px solid #0078ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+body.dark-mode h2 {
+    color: #22C55E;
+    border-bottom: 2px solid #22C55E;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    color: #222;
+    font-weight: 400;
+}
+
+body.dark-mode p {
+    color: #E0E0E0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #0078ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #0056d2;
+    transform: scale(1.05);
+}
+
+body.dark-mode .btn {
+    background: #22C55E;
+}
+
+body.dark-mode .btn:hover {
+    background: #1DB954;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 12px;
+    background: #1877F2;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode footer {
+    background: #1E1E1E;
+}
+
+/* Dark Mode Toggle */
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    background: #0078ff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.toggle-btn:hover {
+    background: #0056d2;
+}
+
+body.dark-mode .toggle-btn {
+    background: #22C55E;
+}
+
+body.dark-mode .toggle-btn:hover {
+    background: #1DB954;
+}
+
+/* Animations */
+.reveal {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
