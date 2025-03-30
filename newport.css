@@ -87,7 +87,7 @@ body {
     transform: scale(1.05);
 }
 
-.services, .case-studies, .testimonials, .recent-work, .contact {
+.home,.services, .case-studies, .testimonials, .recent-work, .contact {
     padding: 60px 20px;
     text-align: center;
     transition: color 0.3s;
