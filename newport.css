@@ -18,24 +18,25 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background-color: rgba(50, 50, 50, 0.9);
+    background-color: rgba(70, 70, 70, 0.9);
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
     font-size: 14px;
-    gap: 15px;
+    gap: 10px;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 8px 12px;
+    padding: 6px 10px;
     transition: color 0.3s, text-decoration 0.3s;
+    font-size: 14px;
 }
 
-.navbar a:hover {
+.navbar a:hover, .services:hover, .case-studies:hover, .testimonials:hover, .recent-work:hover, .contact:hover {
     color: #00ff00;
     text-decoration: underline;
 }
@@ -89,10 +90,6 @@ body {
     padding: 60px 20px;
     text-align: center;
     transition: color 0.3s;
-}
-
-.services:hover, .case-studies:hover, .testimonials:hover, .recent-work:hover, .contact:hover {
-    color: #00ff00;
 }
 
 .partners {
