@@ -92,6 +92,7 @@ body {
     font-weight: 700;
     transition: background 0.3s, transform 0.2s;
     box-shadow: 0 4px 10px rgba(0, 255, 0, 0.5);
+    color: white
 }
 
 .cta-button:hover {
