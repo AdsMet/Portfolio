@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 .footer-logo img {
-    width: 60px;
+    width: 40px; /* Reduced size */
     height: auto;
     margin-right: 10px;
 }
