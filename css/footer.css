@@ -9,6 +9,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .footer-logo {
     display: flex;
@@ -32,4 +36,5 @@ body {
     text-align: center;
     padding: 10px;
     background-color: #111;
+    width: 100%;
 }
