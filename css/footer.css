@@ -7,7 +7,6 @@ body {
 .footer {
     background-color: #2a2a2a;
     color: white;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
