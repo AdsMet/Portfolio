@@ -29,13 +29,12 @@ body {
     align-items: flex-end;
 }
 .footer-payment img {
-    width: 75px;
+    width: 80px;
     margin: 5px;
-    height: auto;
 }
 .copyright {
     text-align: center;
     padding: 10px;
-    background-color: #111;
+    background-color: #2A2A2A;
     width: 100%;
 }
