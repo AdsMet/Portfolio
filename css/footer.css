@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    padding-bottom: 80px; /* Add padding to ensure content doesn't overlap the footer */
+    padding-bottom: 10px; /* Add padding to ensure content doesn't overlap the footer */
 }
 
 .footer {
@@ -22,7 +22,7 @@ body {
 }
 
 .footer-logo img {
-    width: 50px; /* Adjust logo size */
+    width: 70px; /* Adjust logo size */
     height: auto;
     margin-right: 10px;
 }
@@ -43,4 +43,8 @@ body {
     padding: 10px;
     background-color: #2A2A2A;
     width: 100%;
+}
+
+h4{
+    padding-right: 20px;
 }
