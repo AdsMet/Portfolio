@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 60px;
 }
 
 .footer-payment img {
