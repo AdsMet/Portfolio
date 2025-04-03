@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
